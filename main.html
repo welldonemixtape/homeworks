@@ -5,12 +5,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="">
     <title>Page</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'century gothic';
+        }
+        
+        .good {
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid rgb(0, 119, 255);
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <script src="script4.js"></script>
+    <h1 class="text-primary ml-3 mt-3">Ваша корзина:</h1>
+
+    <div class="catalog">
+    </div>
+    <div class="cart-list text-primary pl-3 bg-white rounded w-25">
+        <button class="add-cart btn my-3 btn-primary">Добавить в корзину</button>
+    </div>
+    <button class="cart-btn btn btn-primary m-3">Очистить корзину</button>
+
+    <script src="script6.js"></script>
 </body>
 
 </html>
