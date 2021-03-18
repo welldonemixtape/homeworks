@@ -2,15 +2,27 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="">
-    <title>Page</title>
-    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Игра на JavaScript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
+<body class="bg-primal">
 
-<body>
-    <script src="script3.js"></script>
+    <div id="game-score">Счет игры: <span id="score-count">0</span></div>
+    <div id="game-wrap">
+        <table id="game"></table>
+    </div>
+    <div id="menu">
+        <div id="playButton" class="menuButton">Старт</div>
+        <div id="newGameButton" class="menuButton">Новая игра</div>
+    </div>
+
+    <script src="script7.js"></script>
 </body>
 
 </html>
